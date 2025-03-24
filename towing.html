@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Towing Services | Penguin Asia</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+
+<body class="bg-[#f5f5f5] text-gray-800 flex flex-col min-h-screen">
+
+    <header class="bg-[#8C715B] shadow-md p-4">
+        <nav class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="images/logo.png" alt="Penguin Logo" class="w-12 h-12 mr-3">
+                <a href="home.html" class="text-xl font-bold text-white">Penguin Sales & Services Company</a>
+            </div>
+            <ul class="flex space-x-6 text-white font-medium">
+                <li class="relative group">
+                    <button id="servicesDropdownBtn" class="hover:text-yellow-300 focus:outline-none">
+                        Services ▼
+                    </button>
+                    <ul id="servicesDropdown" class="absolute left-0 hidden mt-2 w-48 bg-white shadow-lg group-hover:block z-50 text-gray-800">
+                        <li><a href="bridalcar.html" class="block px-4 py-2 hover:bg-gray-100">Bridal Car</a></li>
+                        <li><a href="towing.html" class="block px-4 py-2 hover:bg-gray-100">Towing</a></li>
+                        <li><a href="trucking.html" class="block px-4 py-2 hover:bg-gray-100">Trucking</a></li>
+                        <li><a href="heavyequipment.html" class="block px-4 py-2 hover:bg-gray-100">Heavy Equipment</a></li>
+                        <li><a href="construction.html" class="block px-4 py-2 hover:bg-gray-100">Construction</a></li>
+                        <li><a href="furniture.html" class="block px-4 py-2 hover:bg-gray-100">Furniture</a></li>
+                        <li><a href="autoparts.html" class="block px-4 py-2 hover:bg-gray-100">Auto Parts</a></li>
+                    </ul>
+                </li>
+                <li><a href="home.html" class="hover:underline">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container mx-auto flex-grow px-6 mt-24">
+        <section class="fade-out py-24 text-center">
+            <div class="max-w-4xl mx-auto">
+                <h1 class="text-5xl font-bold text-gray-800 mb-8">Towing Services 24/7</h1>
+                <p class="text-lg text-gray-600 mb-12">
+                    Reliable towing available anytime, anywhere—whenever you need us the most.
+                </p>
+
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+                    <img src="img/towing1.jpg" alt="Towing Service 1" class="w-full aspect-square object-cover rounded-md shadow-md">
+                    <img src="img/towing2.jpg" alt="Towing Service 2" class="w-full aspect-square object-cover rounded-md shadow-md">
+                    <img src="img/towing3.jpg" alt="Towing Service 3" class="w-full aspect-square object-cover rounded-md shadow-md">
+                    <img src="img/towing4.jpg" alt="Towing Service 4" class="w-full aspect-square object-cover rounded-md shadow-md">
+                    <img src="img/towing5.jpg" alt="Towing Service 5" class="w-full aspect-square object-cover rounded-md shadow-md">
+                    <img src="img/towing6.jpg" alt="Towing Service 6" class="w-full aspect-square object-cover rounded-md shadow-md">
+                    <img src="img/towing7.jpg" alt="Towing Service 7" class="w-full aspect-square object-cover rounded-md shadow-md">
+                    <img src="img/towing8.jpg" alt="Towing Service 8" class="w-full aspect-square object-cover rounded-md shadow-md">
+                    <img src="img/towing9.jpg" alt="Towing Service 9" class="w-full aspect-square object-cover rounded-md shadow-md">
+                    <img src="img/towing10.jpg" alt="Towing Service 10" class="w-full aspect-square object-cover rounded-md shadow-md">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-[#2c3333] text-white text-center py-4">
+        <p>&copy; 2025 Penguin Sales & Services Company. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
